@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  padding: 300px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.container img {
+  border: 2px solid #026E78;
+  margin: auto;
+  width: 1000px;
+}
+
+.container .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .title .folk {
+  position: absolute;
+  top: 95px;
+  left: 420px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.container .title .folk a {
+  text-decoration: none;
+}
+
+.container .title .folk a .fa-utensils {
+  font-size: 35px;
+  color: #026E78;
+  padding: 10px;
+}
+
+.container .title .folk a .restaur {
+  font-size: 35px;
+  color: #026E78;
+}
+
+.container .title .number {
+  position: absolute;
+  top: 90px;
+  right: 390px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.container .title .number a {
+  text-decoration: none;
+  color: white;
+}
+
+.container .menu-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 195px;
+  left: 350px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container .menu-bar li {
+  list-style-type: none;
+}
+
+.container .menu-bar li a {
+  text-decoration: none;
+}
+
+.container .menu-bar .beg {
+  position: absolute;
+  width: 150px;
+  height: 55px;
+  text-align: center;
+  background-color: white;
+  top: -43px;
+  left: 80px;
+}
+
+.container .menu-bar .beg a {
+  position: absolute;
+  color: #026E78;
+  top: 13px;
+  left: 45px;
+  font-size: 25px;
+}
+
+.container .menu-bar .mid1 {
+  position: absolute;
+  top: -73px;
+  left: 200px;
+  margin: 30px;
+  width: 150px;
+  height: 55px;
+  text-align: center;
+  background-color: #118e99;
+}
+
+.container .menu-bar .mid1 a {
+  position: absolute;
+  top: 12px;
+  left: 27px;
+  color: white;
+  font-size: 25px;
+}
+
+.container .menu-bar .mid2 {
+  position: absolute;
+  top: -73px;
+  left: 349px;
+  margin: 30px;
+  width: 150px;
+  height: 55px;
+  text-align: center;
+  background-color: #118e99;
+}
+
+.container .menu-bar .mid2 a {
+  position: absolute;
+  top: 12px;
+  left: 28px;
+  color: white;
+  font-size: 25px;
+}
+
+.container .menu-bar .mid3 {
+  position: absolute;
+  top: -73px;
+  left: 498px;
+  margin: 30px;
+  width: 150px;
+  height: 55px;
+  text-align: center;
+  background-color: #118e99;
+}
+
+.container .menu-bar .mid3 a {
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  color: white;
+  font-size: 25px;
+}
+
+.container .menu-bar .fin {
+  position: absolute;
+  top: -43px;
+  right: -787px;
+  width: 177px;
+  height: 55px;
+  text-align: center;
+  background-color: #0E727B;
+}
+
+.container .menu-bar .fin a {
+  position: absolute;
+  top: 12px;
+  left: 23px;
+  color: white;
+  font-size: 25px;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 550px;
+  left: 430px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.container .content .first {
+  position: absolute;
+  top: -206px;
+  left: -2px;
+  padding: 40px;
+  background-color: #026E78;
+  width: 445px;
+}
+
+.container .content .first a {
+  position: absolute;
+  text-decoration: none;
+  font-size: 45px;
+  color: white;
+  bottom: 16px;
+  left: 38px;
+}
+
+.container .content .second {
+  position: absolute;
+  top: -110px;
+  left: -2px;
+  padding: 24px;
+  width: 150px;
+  background-color: white;
+}
+
+.container .content .second a {
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+  color: #068894;
+  bottom: 13px;
+  left: 23px;
+}
+
+.container .content .third {
+  position: absolute;
+  top: -45px;
+  left: -5px;
+  padding: 24px;
+  width: 200px;
+  background-color: #118e99;
+}
+
+.container .content .third a {
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  bottom: 12px;
+  left: 31px;
+}
+/*# sourceMappingURL=style.css.map */
